@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HazardScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayMaker\Actions\DestroyObject.cs">
     <Files>
       <File FileName="Assets\SetToPlayerPos.cs" Line="1" Column="1" />
       <File FileName="Assets\MakeAtMouse.cs" Line="1" Column="1" />
@@ -8,6 +8,7 @@
       <File FileName="Assets\PlayMaker\Actions\Physics2D\IsFixedAngle2d.cs" Line="1" Column="1" />
       <File FileName="Assets\Death_By_Boundary.cs" Line="1" Column="1" />
       <File FileName="Assets\HazardScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayMaker\Actions\DestroyObject.cs" Line="71" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

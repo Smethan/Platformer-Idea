@@ -18,6 +18,9 @@ namespace HutongGames.PlayMaker.Actions
 
 		[Tooltip("Detach children before destroying the Game Object.")]
 		public FsmBool detachChildren;
+
+		[Tooltip("Bool to set upon Destruction")]
+		public FsmBool setBool;
 		//public FsmEvent sendEvent;
 
 		//DelayedEvent delayedEvent;
@@ -37,10 +40,17 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				if (delay.Value <= 0)
 				{
-				    Object.Destroy(go);
+					if (setBool.Value) {
+						setBool = false;
+					}
+					Object.Destroy(go);
+
 				}
 				else
 				{
+					if (setBool.Value) {
+						setBool = false;
+					}
 				    Object.Destroy(go, delay.Value);
 				}
 	
