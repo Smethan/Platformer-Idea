@@ -51,8 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ButtonLoadLevel.cs" />
      <Compile Include="Assets\Camera2DFollow.cs" />
      <Compile Include="Assets\Death_By_Boundary.cs" />
+     <Compile Include="Assets\EndLevelTest.cs" />
      <Compile Include="Assets\HazardScript.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <Compile Include="Assets\JumpPhysics\JumpPhysics.cs" />
@@ -751,6 +753,7 @@
      <Compile Include="Assets\PlayMaker\Actions\TransformPoint.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Translate.cs" />
      <Compile Include="Assets\PlayMaker\Actions\TriggerEvent.cs" />
+     <Compile Include="Assets\PlayMaker\Actions\TriggerEventSetBool.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Trigonometry\GetACosine.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Trigonometry\GetASine.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Trigonometry\GetAtan.cs" />
@@ -808,6 +811,7 @@
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
+     <Compile Include="Assets\Test.cs" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_LightPosition\SFN_LightPosition.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Fresnel\SFN_Fresnel_EXP.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Trunc\SFN_Trunc.shader" />

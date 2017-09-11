@@ -1,0 +1,16 @@
+#TODO
+-Add health to fire
+-graphics
+-text logic
+-textboxes
+-signs
+-refilling water (?)
+-moar gfx
+-music (Open source music?)
+-types of platforms
+-switching between types of water (tall, long, regular. Use different amounts of water)
+-invincibilty powerup (fire extinguisher?)
+-AAAAAAAART
+-tilesets
+-somehow make tiles combine when next to each other?
+-level builder (optional, but would be useful)

@@ -5,6 +5,8 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.GameObject)]
+	[ActionTarget(typeof(PlayMakerFSM), "eventTarget")]
+	[ActionTarget(typeof(GameObject), "eventTarget")]
 	[Tooltip("Destroys a Game Object.")]
 	public class DestroyObject : FsmStateAction
 	{
@@ -21,6 +23,12 @@ namespace HutongGames.PlayMaker.Actions
 
 		[Tooltip("Bool to set upon Destruction")]
 		public FsmBool setBool;
+
+		[Tooltip("Where to send the event upon destruction (optional).")]
+		public FsmEventTarget eventTarget;
+
+		[Tooltip("The event to send. NOTE: Events must be marked Global to send between FSMs.")]
+		public FsmEvent sendEvent;
 		//public FsmEvent sendEvent;
 
 		//DelayedEvent delayedEvent;
@@ -29,6 +37,8 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			gameObject = null;
 			delay = 0;
+			eventTarget = null;
+			sendEvent = null;
 			//sendEvent = null;
 		}
 
@@ -43,6 +53,10 @@ namespace HutongGames.PlayMaker.Actions
 					if (setBool.Value) {
 						setBool = false;
 					}
+
+					if (sendEvent != null) {
+						Fsm.Event (eventTarget, sendEvent);
+					}
 					Object.Destroy(go);
 
 				}
@@ -51,6 +65,11 @@ namespace HutongGames.PlayMaker.Actions
 					if (setBool.Value) {
 						setBool = false;
 					}
+
+					if (sendEvent != null) {
+						Fsm.Event (eventTarget, sendEvent);
+					}
+
 				    Object.Destroy(go, delay.Value);
 				}
 	
