@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class EndLevelTest : MonoBehaviour {
-
+	
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player") {
-			SceneManager.LoadScene (0);
+			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
 		}
 	}
 }

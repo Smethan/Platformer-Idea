@@ -1,0 +1,15 @@
+Enemy/Design Reqs
+1. Between 10 and 20 fires per level
+2. Exit locked until player extinguishes all fires
+3. Enemy types: Melee (Walks back and forth, easy), Ranged (Spits fireballs, doesn't move), Fire (Stationary fire, hurts player if they touch it, has ~10 HP)
+4. Player must complete level within x amount of time (TBD), timer in top left or top middle
+5. Bonus points for finishing quick
+6. Will start with 1 level pack, may add more
+7. Levels must be completed sequentially, if all lives are lost, you start from beginning of pack
+8. 5 Lives
+
+Plot/Graphic Reqs
+1. Level pack one is in library/mansion
+2. Place is on fire, lots of burning/burnt stuff
+3. Linear, less verticality
+4. Speed focused

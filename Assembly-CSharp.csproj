@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AnimSprites.cs" />
      <Compile Include="Assets\ButtonLoadLevel.cs" />
      <Compile Include="Assets\Camera2DFollow.cs" />
      <Compile Include="Assets\Death_By_Boundary.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\JumpPhysics\JumpPhysics.cs" />
      <Compile Include="Assets\JumpPhysics\JumpPhysics2D.cs" />
      <Compile Include="Assets\MakeAtMouse.cs" />
+     <Compile Include="Assets\MaxSpeed.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ActivateGameObject.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddAnimationClip.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddComponent.cs" />
