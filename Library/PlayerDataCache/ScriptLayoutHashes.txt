@@ -134,6 +134,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d9b9a2d21144c48963ca5d9a621dc28c Assembly-CSharp.dll:.SetToPlayerPos
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HealthText
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -167,7 +168,9 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba PlayMaker.dll:.PlayMakerTriggerExit2D
 05524b8f659e7bfe5756d1335fec24ba PlayMaker.dll:.PlayMakerTriggerStay
 05524b8f659e7bfe5756d1335fec24ba PlayMaker.dll:.PlayMakerTriggerStay2D
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MinionScript
 aa3ecb2869aa80df3ef6d4ae2791c887 Assembly-CSharp.dll:.PlayMakerRPCProxy
+0485945929272b0f118d15c445d93bfd Assembly-CSharp.dll:.AnimSprites
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IncrementRenderQueue
 609883ba9b3462e00c79080cdb51d119 Assembly-CSharp.dll:.iTween
 aba1a64d9e18920790adfe287e11e4a2 Assembly-CSharp.dll:.JumpPhysics
@@ -191,6 +194,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreScript
 0b2bfc1bb5d3769f91bc806685e780f4 Assembly-CSharp.dll:.iTweenFSMEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MakeAtMouse
 78b5df39037288f4d97bba9451c4dc66 PlayMaker.dll:.FsmTemplate
@@ -226,9 +230,10 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
+31c006596c5cd74f0c2eef9d90632708 Assembly-CSharp.dll:.MaxSpeed
 9a7920c71a3867d4b7bda5166446cd8f Assembly-CSharp.dll:.JumpPhysics2D
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HazardScript
 e7cad0cd38cfd23c44199eb8c87a6385 Assembly-CSharp.dll:.EditorLabel
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonLoadLevel
 d7cf429a9664054ea3047178de9455ea Assembly-CSharp.dll:.SoftNormalsToVertexColor
-31c006596c5cd74f0c2eef9d90632708 Assembly-CSharp.dll:.MaxSpeed
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CreditsScore

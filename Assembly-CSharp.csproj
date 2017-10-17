@@ -54,14 +54,17 @@
      <Compile Include="Assets\AnimSprites.cs" />
      <Compile Include="Assets\ButtonLoadLevel.cs" />
      <Compile Include="Assets\Camera2DFollow.cs" />
+     <Compile Include="Assets\CreditsScore.cs" />
      <Compile Include="Assets\Death_By_Boundary.cs" />
      <Compile Include="Assets\EndLevelTest.cs" />
      <Compile Include="Assets\HazardScript.cs" />
+     <Compile Include="Assets\HealthText.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <Compile Include="Assets\JumpPhysics\JumpPhysics.cs" />
      <Compile Include="Assets\JumpPhysics\JumpPhysics2D.cs" />
      <Compile Include="Assets\MakeAtMouse.cs" />
      <Compile Include="Assets\MaxSpeed.cs" />
+     <Compile Include="Assets\MinionScript.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ActivateGameObject.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddAnimationClip.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddComponent.cs" />
@@ -809,6 +812,7 @@
      <Compile Include="Assets\PlayMaker\Actions\WWWObject.cs" />
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
      <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
+     <Compile Include="Assets\ScoreScript.cs" />
      <Compile Include="Assets\SetToPlayerPos.cs" />
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
      <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
