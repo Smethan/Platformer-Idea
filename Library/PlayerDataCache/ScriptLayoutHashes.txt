@@ -13,7 +13,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 5667fb372c2b292ccdec2a31aaac98fa UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 5667fb372c2b292ccdec2a31aaac98fa UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EndLevelTest
+b986296395b82f9021a179444ea85dc7 Assembly-CSharp.dll:.EndLevelTest
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -171,6 +171,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MinionScript
 aa3ecb2869aa80df3ef6d4ae2791c887 Assembly-CSharp.dll:.PlayMakerRPCProxy
 0485945929272b0f118d15c445d93bfd Assembly-CSharp.dll:.AnimSprites
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CreditsScore
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IncrementRenderQueue
 609883ba9b3462e00c79080cdb51d119 Assembly-CSharp.dll:.iTween
 aba1a64d9e18920790adfe287e11e4a2 Assembly-CSharp.dll:.JumpPhysics
@@ -231,9 +232,12 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 31c006596c5cd74f0c2eef9d90632708 Assembly-CSharp.dll:.MaxSpeed
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SaveLoadManager
 9a7920c71a3867d4b7bda5166446cd8f Assembly-CSharp.dll:.JumpPhysics2D
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HazardScript
 e7cad0cd38cfd23c44199eb8c87a6385 Assembly-CSharp.dll:.EditorLabel
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonLoadLevel
+c14fa0f94733861a843d7c03b9bd588c Assembly-CSharp.dll:.ButtonLoadLevel
 d7cf429a9664054ea3047178de9455ea Assembly-CSharp.dll:.SoftNormalsToVertexColor
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CreditsScore
+be8066c6a32f87d24456b855ce244a93 Assembly-CSharp.dll:.HighScoreGet
+3629c17e1ef4b3f0027a690cd16624f0 Assembly-CSharp.dll:.LightScr
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadScreenScript

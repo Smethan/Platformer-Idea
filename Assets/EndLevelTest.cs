@@ -4,18 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class EndLevelTest : MonoBehaviour {
-	GameObject[] gos;
+	public GameObject go;
+	public Object[] gos; 
 	void Start(){
-		gos = GameObject.FindGameObjectsWithTag("Fire");
+		go = Resources.Load("LoadScreen") as GameObject;
+		gos = GameObject.FindGameObjectsWithTag("Health");
 	}
 	void OnTriggerEnter (Collider other) {
 		if (other.tag == "Player") {
-			if (SceneManager.GetActiveScene ().buildIndex + 1 < SceneManager.sceneCountInBuildSettings) {
-				SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
-			
-			} else {
-				SceneManager.LoadScene (0);
-			}
+			Destroy (gos[0]);
+			Destroy (other.gameObject);
+			Instantiate (go);
 	}
 }
 }
