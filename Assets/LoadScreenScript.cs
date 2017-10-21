@@ -10,10 +10,11 @@ public class LoadScreenScript : MonoBehaviour {
 	private int scene;
 	private Text loadingText;
 	private string[] FlavorText;
+	private int RandSeed;
 
 
 	// Updates once per frame
-	void Start() {
+	void Awake() {
 		FlavorText = new string[6];
 		FlavorText [0] = "Putting out Fires...";
 		FlavorText [1] = "Refilling Water Buckets...";
@@ -23,6 +24,7 @@ public class LoadScreenScript : MonoBehaviour {
 		FlavorText [5] = "Petting Dalmatians...";
 		scene = SceneManager.GetActiveScene ().buildIndex + 1;
 		loadingText = GetComponent<Text> ();
+		RandSeed = Random.Range (0, 5);
 	}
 	void Update() {
 
@@ -46,12 +48,12 @@ public class LoadScreenScript : MonoBehaviour {
 		}
 		// If the new scene has started loading...
 		if (loadScene == true) {
+			//Debug.Log (FlavorText [0]);
 
+			//loadingText.text = FlavorText [RandSeed];
 			// ...then pulse the transparency of the loading text to let the player know that the computer is still working.
 			loadingText.color = new Color(loadingText.color.r, loadingText.color.g, loadingText.color.b, Mathf.PingPong(Time.time, 1));
-			//if (loadingText.color.a == 0.2f) {
-			//	loadingText.text = FlavorText [Random.Range (0, 5)];
-			//}
+
 
 		}
 

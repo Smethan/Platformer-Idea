@@ -1,4 +1,5 @@
 WindowsStandalone
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TimeScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.EnableCameraDepthInForward
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -170,10 +171,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba PlayMaker.dll:.PlayMakerTriggerStay2D
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MinionScript
 aa3ecb2869aa80df3ef6d4ae2791c887 Assembly-CSharp.dll:.PlayMakerRPCProxy
+3629c17e1ef4b3f0027a690cd16624f0 Assembly-CSharp.dll:.LightScr
 0485945929272b0f118d15c445d93bfd Assembly-CSharp.dll:.AnimSprites
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CreditsScore
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IncrementRenderQueue
 609883ba9b3462e00c79080cdb51d119 Assembly-CSharp.dll:.iTween
+be8066c6a32f87d24456b855ce244a93 Assembly-CSharp.dll:.HighScoreGet
 aba1a64d9e18920790adfe287e11e4a2 Assembly-CSharp.dll:.JumpPhysics
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -196,6 +199,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadScreenScript
 0b2bfc1bb5d3769f91bc806685e780f4 Assembly-CSharp.dll:.iTweenFSMEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MakeAtMouse
 78b5df39037288f4d97bba9451c4dc66 PlayMaker.dll:.FsmTemplate
@@ -238,6 +242,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 e7cad0cd38cfd23c44199eb8c87a6385 Assembly-CSharp.dll:.EditorLabel
 c14fa0f94733861a843d7c03b9bd588c Assembly-CSharp.dll:.ButtonLoadLevel
 d7cf429a9664054ea3047178de9455ea Assembly-CSharp.dll:.SoftNormalsToVertexColor
-be8066c6a32f87d24456b855ce244a93 Assembly-CSharp.dll:.HighScoreGet
-3629c17e1ef4b3f0027a690cd16624f0 Assembly-CSharp.dll:.LightScr
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadScreenScript
+03e89e132745e6e6f9a51c443f88a90c Assembly-CSharp.dll:.GameOver

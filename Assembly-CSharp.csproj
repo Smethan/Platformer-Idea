@@ -57,6 +57,7 @@
      <Compile Include="Assets\CreditsScore.cs" />
      <Compile Include="Assets\Death_By_Boundary.cs" />
      <Compile Include="Assets\EndLevelTest.cs" />
+     <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\HazardScript.cs" />
      <Compile Include="Assets\HealthText.cs" />
      <Compile Include="Assets\HighScoreGet.cs" />
@@ -822,6 +823,7 @@
      <Compile Include="Assets\Sprites\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
      <Compile Include="Assets\Sprites\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
      <Compile Include="Assets\Test.cs" />
+     <Compile Include="Assets\TimeScript.cs" />
      <None Include="Assets\Sprites\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_LightPosition\SFN_LightPosition.shader" />
      <None Include="Assets\Sprites\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Fresnel\SFN_Fresnel_EXP.shader" />
      <None Include="Assets\Sprites\ShaderForge\Editor\InternalResources\GPU Rendering\SFN_Trunc\SFN_Trunc.shader" />

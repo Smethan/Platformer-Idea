@@ -16,7 +16,6 @@ public class ScoreScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		int ScoreNum = _ScoreNum.Value;
-		Debug.Log (Application.persistentDataPath);
 		Score.text = "Score: " + ScoreNum;
 	}
 }
