@@ -36,7 +36,11 @@ public class ButtonLoadLevel : MonoBehaviour {
 	public void ButtonLoadMainmenu() {
 		SceneManager.LoadSceneAsync (0);
 	}
-	public void ResetButton() {
+    public void ButtonLoadControls()
+    {
+        SceneManager.LoadSceneAsync("ControlScene");
+    }
+    public void ResetButton() {
 		ResetCount = ResetCount + 1;
 		DataSet [0] = 1;
 		DataSet [1] = ResetCount;

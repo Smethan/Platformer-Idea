@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: acfe78d4f3ae5794e8c6b4d2d5a3ccde
+timeCreated: 1508684181
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Determination Sans
+  fontNames:
+  - Determination Sans
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
